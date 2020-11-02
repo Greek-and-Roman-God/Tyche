@@ -9,7 +9,7 @@ data = input() #문자열로 받음
 total = int(data[0]) #문자열로 받았으니 int로 변환해야 연산가능
 ele = 0
 
-for i in range(1,len(data)) : #data[0]요소는 넣었으니 data[1]부터 돌려야 하고 len(data)는 data의 길이 즉, n임.data
+for i in range(1,len(data)) : #data[0]요소는 넣었으니 data[1]부터 돌려야 하고 len(data)는 data의 길이 즉, n임 
                               #range(1,n)은 1부터 n-1까지니 data[1] ~ data[n-1]까지 넣을 수 있다!.
     ele = int(data[i])
     if ele <=1 or total <= 1 :
